@@ -1,7 +1,7 @@
 #!/bin/sh
 #script based on the one found on upbuntu.com
 
-echo "$(tput setaf 3)--- Kernel 3.8.2 will be installed in an `uname -i` system---$(tput sgr0)"
+echo "$(tput setaf 3)--- Kernel 3.8.3 will be installed in an `uname -i` system---$(tput sgr0)"
 
 echo ""
 
@@ -14,21 +14,21 @@ echo ""
 
 #i386 links
 
-link1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.2-raring/linux-headers-3.8.2-030802_3.8.2-030802.201303031906_all.deb"
+link1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.3-raring/linux-headers-3.8.3-030803_3.8.3-030803.201303141650_all.deb"
 
-link2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.2-raring/linux-headers-3.8.2-030802-generic_3.8.2-030802.201303031906_i386.deb"
+link2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.3-raring/linux-headers-3.8.3-030803-generic_3.8.3-030803.201303141650_i386.deb"
 
-link3="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.2-raring/linux-image-3.8.2-030802-generic_3.8.2-030802.201303031906_i386.deb"
+link3="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.3-raring/linux-image-3.8.3-030803-generic_3.8.3-030803.201303141650_i386.deb"
 
-link4="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.2-raring/linux-image-extra-3.8.2-030802-generic_3.8.2-030802.201303031906_i386.deb"
+link4="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.3-raring/linux-image-extra-3.8.3-030803-generic_3.8.3-030803.201303141650_i386.deb"
 
 #amd64 links
 
-url1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.2-raring/linux-headers-3.8.2-030802-generic_3.8.2-030802.201303031906_amd64.deb"
+url1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.3-raring/linux-headers-3.8.3-030803-generic_3.8.3-030803.201303141650_amd64.deb"
 
-url2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.2-raring/linux-image-3.8.2-030802-generic_3.8.2-030802.201303031906_amd64.deb"
+url2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.3-raring/linux-image-3.8.3-030803-generic_3.8.3-030803.201303141650_amd64.deb"
 
-url3="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.2-raring/linux-image-extra-3.8.2-030802-generic_3.8.2-030802.201303031906_amd64.deb"
+url3="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.3-raring/linux-image-extra-3.8.3-030803-generic_3.8.3-030803.201303141650_amd64.deb"
 
 #System architecture
 
