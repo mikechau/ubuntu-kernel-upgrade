@@ -1,7 +1,7 @@
 #!/bin/sh
 #script based on the one found on upbuntu.com
 
-echo "$(tput setaf 3)--- Kernel 3.8.4 will be installed in an `uname -i` system---$(tput sgr0)"
+echo "$(tput setaf 3)--- Kernel 3.8.7 will be installed in an `uname -i` system---$(tput sgr0)"
 
 echo ""
 
