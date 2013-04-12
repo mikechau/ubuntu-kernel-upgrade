@@ -14,21 +14,21 @@ echo ""
 
 #i386 links
 
-link1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.4-raring/linux-headers-3.8.4-030804_3.8.4-030804.201303201832_all.deb"
+link1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.7-raring/linux-headers-3.8.7-030807_3.8.7-030807.201304121430_all.deb"
 
-link2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.4-raring/linux-headers-3.8.4-030804-generic_3.8.4-030804.201303201832_i386.deb"
+link2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.7-raring/linux-headers-3.8.7-030807-generic_3.8.7-030807.201304121430_i386.deb"
 
-link3="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.4-raring/linux-image-3.8.4-030804-generic_3.8.4-030804.201303201832_i386.deb"
+link3="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.7-raring/linux-image-3.8.7-030807-generic_3.8.7-030807.201304121430_i386.deb"
 
-link4="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.4-raring/linux-image-extra-3.8.4-030804-generic_3.8.4-030804.201303201832_i386.deb"
+link4="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.7-raring/linux-image-extra-3.8.7-030807-generic_3.8.7-030807.201304121430_i386.deb"
 
 #amd64 links
 
-url1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.4-raring/linux-headers-3.8.4-030804-generic_3.8.4-030804.201303201832_amd64.deb"
+url1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.7-raring/linux-headers-3.8.7-030807-generic_3.8.7-030807.201304121430_amd64.deb"
 
-url2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.4-raring/linux-image-3.8.4-030804-generic_3.8.4-030804.201303201832_amd64.deb"
+url2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.7-raring/linux-image-3.8.7-030807-generic_3.8.7-030807.201304121430_amd64.deb"
 
-url3="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.4-raring/linux-image-extra-3.8.4-030804-generic_3.8.4-030804.201303201832_amd64.deb"
+url3="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.7-raring/linux-image-extra-3.8.7-030807-generic_3.8.7-030807.201304121430_amd64.deb"
 
 #System architecture
 
