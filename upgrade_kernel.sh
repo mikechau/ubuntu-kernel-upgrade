@@ -1,7 +1,7 @@
 #!/bin/sh
 #script based on the one found on upbuntu.com
 
-echo "$(tput setaf 3)--- Kernel 3.8.8 will be installed in an `uname -i` system---$(tput sgr0)"
+echo "$(tput setaf 3)--- Kernel 3.8.9 will be installed in an `uname -i` system---$(tput sgr0)"
 
 echo ""
 
@@ -14,21 +14,21 @@ echo ""
 
 #i386 links
 
-link1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.8-raring/linux-headers-3.8.8-030808_3.8.8-030808.201304170248_all.deb"
+link1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.9-raring/linux-headers-3.8.9-030809_3.8.9-030809.201304260102_all.deb"
 
-link2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.8-raring/linux-headers-3.8.8-030808-generic_3.8.8-030808.201304170248_i386.deb"
+link2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.9-raring/linux-headers-3.8.9-030809-generic_3.8.9-030809.201304260102_i386.deb"
 
-link3="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.8-raring/linux-image-3.8.8-030808-generic_3.8.8-030808.201304170248_i386.deb"
+link3="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.9-raring/linux-image-3.8.9-030809-generic_3.8.9-030809.201304260102_i386.deb"
 
-link4="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.8-raring/linux-image-extra-3.8.8-030808-generic_3.8.8-030808.201304170248_i386.deb"
+#link4="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.8-raring/linux-image-extra-3.8.8-030808-generic_3.8.8-030808.201304170248_i386.deb"
 
 #amd64 links
 
-url1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.8-raring/linux-headers-3.8.8-030808-generic_3.8.8-030808.201304170248_amd64.deb"
+url1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.9-raring/linux-headers-3.8.9-030809-generic_3.8.9-030809.201304260102_amd64.deb"
 
-url2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.8-raring/linux-image-3.8.8-030808-generic_3.8.8-030808.201304170248_amd64.deb"
+url2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.9-raring/linux-image-3.8.9-030809-generic_3.8.9-030809.201304260102_amd64.deb"
 
-url3="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.8-raring/linux-image-extra-3.8.8-030808-generic_3.8.8-030808.201304170248_amd64.deb"
+#url3="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.8-raring/linux-image-extra-3.8.8-030808-generic_3.8.8-030808.201304170248_amd64.deb"
 
 #System architecture
 
@@ -42,7 +42,7 @@ cd $HOME/kernel-i386
 wget -c $link1
 wget -c $link2
 wget -c $link3
-wget -c $link4
+#wget -c $link4
 
 sudo dpkg -i *.deb
 
@@ -58,7 +58,7 @@ cd $HOME/kernel-amd64
 wget -c $link1
 wget -c $url1
 wget -c $url2
-wget -c $url3
+#wget -c $url3
 
 sudo dpkg -i *.deb
 
