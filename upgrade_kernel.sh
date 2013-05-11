@@ -1,7 +1,7 @@
 #!/bin/sh
 #script based on the one found on upbuntu.com
 
-echo "$(tput setaf 3)--- Kernel 3.9.1 will be installed in an `uname -i` system---$(tput sgr0)"
+echo "$(tput setaf 3)--- Kernel 3.9.2 will be installed in an `uname -i` system---$(tput sgr0)"
 
 echo ""
 
@@ -14,19 +14,17 @@ echo ""
 
 #i386 links
 
-link1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.9.1-saucy/linux-headers-3.9.1-030901_3.9.1-030901.201305080210_all.deb"
+link1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.9.2-saucy/linux-headers-3.9.2-030902_3.9.2-030902.201305111035_all.deb"
 
-link2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.9.1-saucy/linux-headers-3.9.1-030901-generic_3.9.1-030901.201305080210_i386.deb"
+link2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.9.2-saucy/linux-headers-3.9.2-030902-generic_3.9.2-030902.201305111035_i386.deb"
 
-link3="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.9.1-saucy/linux-image-3.9.1-030901-generic_3.9.1-030901.201305080210_i386.deb"
-
-#link4="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.8-raring/linux-image-extra-3.8.8-030808-generic_3.8.8-030808.201304170248_i386.deb"
+link3="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.9.2-saucy/linux-image-3.9.2-030902-generic_3.9.2-030902.201305111035_i386.deb"
 
 #amd64 links
 
-url1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.9.1-saucy/linux-headers-3.9.1-030901-generic_3.9.1-030901.201305080210_amd64.deb"
+url1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.9.2-saucy/linux-headers-3.9.2-030902-generic_3.9.2-030902.201305111035_amd64.deb"
 
-url2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.9.1-saucy/linux-image-3.9.1-030901-generic_3.9.1-030901.201305080210_amd64.deb"
+url2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.9.2-saucy/linux-image-3.9.2-030902-generic_3.9.2-030902.201305111035_amd64.deb"
 
 #url3="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.8.8-raring/linux-image-extra-3.8.8-030808-generic_3.8.8-030808.201304170248_amd64.deb"
 
