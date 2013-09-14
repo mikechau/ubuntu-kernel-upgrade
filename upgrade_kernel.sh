@@ -14,17 +14,17 @@ echo ""
 
 #i386 links
 
-link1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.11-saucy/linux-headers-3.11.0-031100_3.11.0-031100.201309021735_all.deb"
+link1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.11.1-saucy/linux-headers-3.11.1-031101_3.11.1-031101.201309141102_all.deb"
 
-link2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.11-saucy/linux-headers-3.11.0-031100-generic_3.11.0-031100.201309021735_i386.deb"
+link2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.11.1-saucy/linux-headers-3.11.1-031101-generic_3.11.1-031101.201309141102_i386.deb"
 
-link3="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.11-saucy/linux-image-3.11.0-031100-generic_3.11.0-031100.201309021735_i386.deb"
+link3="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.11.1-saucy/linux-image-3.11.1-031101-generic_3.11.1-031101.201309141102_i386.deb"
 
 #amd64 links
 
-url1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.11-saucy/linux-headers-3.11.0-031100-generic_3.11.0-031100.201309021735_amd64.deb"
+url1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.11.1-saucy/linux-headers-3.11.1-031101-generic_3.11.1-031101.201309141102_amd64.deb"
 
-url2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.11-saucy/linux-image-3.11.0-031100-generic_3.11.0-031100.201309021735_amd64.deb"
+url2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.11.1-saucy/linux-image-3.11.1-031101-generic_3.11.1-031101.201309141102_amd64.deb"
 
 #System architecture
 
